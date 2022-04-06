@@ -15,6 +15,15 @@ public class GitTest3 {
 		b=c;
 		System.out.println("After swapping values are..."+a+"  "+b);
 		
+		String hungry = "yes";
+		
+		if(hungry == "yes" || hungry == "Y" || hungry=="y")
+		
+		System.out.println("eat something...");
+		else{
+		System.out.println("Do work...");
+		}
+		
 
 	}
 
